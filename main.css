@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|VT323');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 @font-face { 
     font-family: "Didhot"; 
@@ -6,69 +6,82 @@
 }
 
 body{
-    background: #050505;
-    color: #0f0;
+    background: #202327;
+    color: #BD3F3A;
     font-family: 'Didhot', monospace;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
-svg {
-    display: block;
-    margin: auto;
-}
-
-svg text{
-    fill: #0f0;
+p {
+    margin: 0;
 }
 
 .title {
-    font-size: 80px;
+	position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
     text-align: center;
-    padding: 1rem 1rem;
     font-family: 'Cinzel', serif;
+    text-shadow: 7px 7px #0005;
 }
 
 .logo {
     font-size: 80px;
-    padding: 5rem 5rem;
+    text-shadow: 7px 7px #0005;
+}
+
+.artistas {
+    background: #0005;
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 449px;
+    text-align: justify;
+    text-align-last: justify;
+    padding: 1rem 1rem;
+}
+
+.date {
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    text-shadow: 4px 4px #0005;
+}
+
+.footer {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
 }
 
 .one{
-    font-size: 80px;
+    font-size: 54px;
 }
 
 .two {
-    font-size: 37px;
+    font-size: 26px;
     
 }
 
 .three {
-    font-size: 24px;
+    font-size: 17px;
 }
 
 .four {
-    font-size: 16px;
-}
-
-.five {
-    font-size: 16px;
-}
-
-.six {
-    font-size: 13px;
-}
-
-.seven {
-    font-size: 13px;
-}
-
-.eight {
     font-size: 12px;
 }
 
-.date {
-    padding: 1rem 1rem;
-    font-size: 17px;
-    font-family: 'VT323';
-    text-align: center;
+.five {
+    font-size: 11px;
+}
+
+.six {
+    font-size: 10px;
 }
