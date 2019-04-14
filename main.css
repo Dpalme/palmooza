@@ -8,7 +8,7 @@
 :root{
     --background: #3B74B3;
     --main: #1E1D1E;
-    --shadow: #eaeaea;
+    --shadow: #EAEAEA;
 }
 
 body{
@@ -18,6 +18,21 @@ body{
     font-family: 'Didhot', serif;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: var(--main);
+    z-index: 1;
+    background: #0000;
+    width: 100%;
+    height: 100%;
+    cursor: initial;
+    border: none;
+    outline: none;
 }
 
 svg {
@@ -51,6 +66,6 @@ svg {
 
 .back {
     width: 80%;
-    height: 30%;
+    height: 31%;
     fill: var(--shadow);
 }
